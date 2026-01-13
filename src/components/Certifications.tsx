@@ -15,34 +15,58 @@ const Certifications = () => {
       verified: true
     },
     {
-      title: 'Intro to Machine Learning',
-      provider: 'Kaggle Learn',
+      title: 'IBM Machine Learning',
+      provider: 'IBM (via Coursera)',
       date: '2024',
-      description: 'Foundation course covering basic machine learning concepts, model building, and evaluation techniques.',
-      url: 'https://www.kaggle.com/learn/certification/devendrakushwah08/intro-to-machine-learning',
-      badge: '📚',
-      skills: ['Supervised Learning', 'Model Evaluation', 'Feature Engineering'],
+      description: 'Industry-recognized IBM certification covering end-to-end machine learning workflow including data preprocessing, supervised and unsupervised learning, model evaluation, and practical implementation using real-world datasets.',
+      url: 'https://www.coursera.org/account/accomplishments/professional-cert/certificate/L0KGOK1O29J4',
+      badge: '🎓',
+      skills: [
+        'Supervised Learning',
+        'Unsupervised Learning',
+        'Model Evaluation & Validation',
+        'Feature Engineering',
+        'Regression & Classification',
+        'Machine Learning Pipelines'
+      ],
       verified: true
     },
     {
-      title: 'Intermediate Machine Learning',
-      provider: 'Kaggle Learn',
-      date: '2024',
-      description: 'Advanced machine learning techniques including cross-validation, missing value handling, and categorical variables.',
-      url: 'https://www.kaggle.com/learn/certification/devendrakushwah08/intermediate-machine-learning',
-      badge: '🎯',
-      skills: ['Cross Validation', 'XGBoost', 'Data Preprocessing'],
-      verified: true
+      title: 'Oracle Cloud Infrastructure 2025 Certified Generative AI Professional',
+      provider: 'Oracle',
+      date: '13 October 2025',
+      description: 'Professional-level Oracle certification focused on Generative AI and Large Language Models (LLMs) using Oracle Cloud Infrastructure (OCI). Validates skills in using OCI Generative AI services, building Retrieval-Augmented Generation (RAG) solutions, semantic search, vector databases, and deploying end-to-end LLM-powered applications with best practices.',
+      url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=B059D2C17275EC53D29EE063A33AB46EAAA38AC9A308C79EE57CDD839E75696C',
+      badge: '🤖',
+      skills: [
+        'Generative AI',
+        'Large Language Models (LLMs)',
+        'OCI Generative AI Service',
+        'Retrieval-Augmented Generation (RAG)',
+        'Vector Databases',
+        'Semantic Search',
+        'LLM Application Deployment'
+      ],
+      verified: true,
+      expiration: '13 October 2027'
     },
     {
-      title: 'Python Programming',
-      provider: 'Various Platforms',
-      date: '2023-2024',
-      description: 'Multiple certifications in Python programming fundamentals and advanced concepts.',
-      url: '#',
-      badge: '🐍',
-      skills: ['Python Basics', 'OOP', 'Data Structures'],
-      verified: false
+      title: 'Oracle Cloud Infrastructure 2025 Certified Data Science Professional',
+      provider: 'Oracle',
+      date: '17 October 2025',
+      description: 'Professional-level Oracle certification validating expertise in building end-to-end data science and machine learning solutions on Oracle Cloud Infrastructure (OCI). Covers ML lifecycle management, selection of OCI services, application of OCI Data & AI services, and adoption of ML and cloud best practices for real-world business use cases.',
+      url: 'https://catalog-education.oracle.com/ords/certview/sharebadge?id=39EC494415CEC4B861EDB81D1848100A5B8C9B8435FB8A55F994AD866D3AC73F',
+      badge: '🏅',
+      skills: [
+        'Oracle Cloud Infrastructure (OCI)',
+        'Machine Learning Lifecycle',
+        'OCI Data & AI Services',
+        'Enterprise Data Science',
+        'ML Solution Design',
+        'Cloud & ML Best Practices'
+      ],
+      verified: true,
+      expiration: '17 October 2027'
     },
     {
       title: 'Data Analysis with Pandas',
